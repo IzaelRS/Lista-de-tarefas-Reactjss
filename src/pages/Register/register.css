@@ -1,0 +1,199 @@
+.rg-Container {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     width: 100%;
+     background-image: url(../../img/back.png);
+     background-size: 100%;
+
+
+}
+
+
+
+
+.dr-titulo {
+     font-family: IBM Plex Mono;
+     margin-bottom: 25px;
+     color: #b1ff3b;
+     font-size: 35px;
+     background-color: #030902;
+     padding: 50px;
+     border-radius: 30px 90px 30px 90px;
+
+
+}
+
+@media(max-width: 900px) {
+     .dr-titulo {
+          font-family: IBM Plex Mono;
+          margin-bottom: 25px;
+          color: #b1ff3b;
+          font-size: 20px;
+          background-color: #030902;
+          padding: 50px;
+          border-radius: 30px 90px 30px 90px;
+
+
+     }
+}
+
+
+.dr-text {
+     background-color: #030902;
+     opacity: 0.7;
+     padding: 3px;
+     border-radius: 2px;
+     font-weight: 400;
+     font-family: IBM Plex Mono;
+     text-align: center;
+}
+
+
+
+
+.name-inrg {
+     border: 0;
+     border-radius: 5px;
+     margin-top: 25px;
+     padding: 10px 20px;
+     font-size: 15px;
+     font-family: IBM Plex Mono;
+     font-weight: 600;
+     width: 90%;
+     background-color: rgba(121, 85, 72, 0.718);
+
+
+}
+
+.name-inrg:focus {
+     outline-color: #8bc34a;
+}
+
+.name-inrg::placeholder {
+     color: #8bc34a;
+}
+
+.name-inrg:valid {
+     color: aqua;
+}
+
+
+
+
+.pass-inrg {
+     border: 0;
+     border-radius: 5px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 10px 20px;
+     font-size: 15px;
+     font-family: IBM Plex Mono;
+     font-weight: 600;
+     width: 90%;
+     background-color: rgba(121, 85, 72, 0.718);
+
+
+}
+
+.pass-inrg:valid {
+     color: aqua;
+}
+
+.pass-inrg::placeholder {
+     color: #8bc34a;
+}
+
+.pass-inrg:focus {
+     outline-color: #8bc34a;
+}
+
+.pass-verrg {
+     border: 0;
+     border-radius: 5px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 10px 20px;
+     font-size: 15px;
+     font-family: IBM Plex Mono;
+     font-weight: 600;
+     width: 90%;
+     background-color: rgba(121, 85, 72, 0.718);
+     backdrop-filter: blur(15px);
+
+}
+
+
+.pass-verrg:valid {
+     color: aqua;
+}
+
+.pass-verrg::placeholder {
+     color: #8bc34a;
+}
+
+.pass-verrg:focus {
+     outline-color: #8bc34a;
+}
+
+.login {
+     background-color: #030902;
+     font-size: 15px;
+     margin-top: 30px;
+     color: #e5e6e5;
+     font-weight: 700;
+     font-family: IBM Plex Mono;
+     text-decoration: none;
+     transition: all 0.8s;
+     opacity: .8;
+     padding: 6px;
+     border-radius: 3px;
+
+}
+
+.login:hover {
+     font-size: 17px;
+     margin-top: 30px;
+     font-weight: 700;
+     font-family: IBM Plex Mono;
+     text-decoration: none;
+     transition: all 0.8s;
+     opacity: 1;
+
+}
+
+.rg-bt {
+     font-family: IBM Plex Mono;
+     font-weight: 600;
+     padding: 10px 20px;
+     margin-top: 10px;
+     width: 50%;
+     transition: all .7s;
+     border-style: ridge;
+     border-color: aqua;
+     border-radius: 7px;
+}
+
+
+.rg-bt:hover {
+
+     font-family: IBM Plex Mono;
+     font-weight: 900;
+     font-size: 15px;
+     padding: 10px 20px;
+     margin-top: 10px;
+     width: 50%;
+     transition: all .8s;
+     color: #141605;
+
+     background: linear-gradient(to right,
+               #cddc39,
+               #bbf8e3);
+
+     transition: all .8s;
+     border-radius: 7px;
+
+}

@@ -1,0 +1,299 @@
+.container-adm {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     align-items: center;
+     justify-content: flex-start;
+     width: 100%;
+     min-height: 130vh;
+     background: linear-gradient(to right,
+               #d8609c,
+               #0c0807);
+
+     background-size: 100% 100%;
+
+}
+
+.container_form {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     align-items: center;
+     justify-content: flex-start;
+     width: 100%;
+     background-image: url(../../img/back06.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     padding-bottom: 10px;
+     border-width: 10px;
+     border-color: #009688;
+     border-bottom-left-radius: 80px 30px;
+     border-bottom-right-radius: 80px 30px;
+     top: 0;
+     margin-bottom: 20px;
+
+}
+
+.container_list {
+     display: flex;
+     flex-direction: column-reverse;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+
+}
+
+.sub_list {
+     display: flex;
+     position: relative;
+     background-color: #001e1b;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     max-height: 800px;
+     width: 90%;
+     margin-bottom: 20px;
+     border-radius: 20px;
+     overflow-y: scroll;
+
+}
+
+.sub_list::-webkit-scrollbar {
+     width: 13px;
+     background-color: #0a0a0a;
+     border-radius: 10px;
+}
+
+.sub_list::-webkit-scrollbar-thumb {
+     background-color: #ff225b;
+     border-radius: 10px;
+}
+
+.sub_list::-webkit-scrollbar-button:single-button {
+     height: 20px;
+     display: block;
+     background-color: #fefefe;
+     color: #0c0807;
+     border-radius: 10px;
+}
+
+
+
+.h1-adm {
+     position: relative;
+     font-family: 'IBM Plex Mono', monospace;
+     color: black;
+     font-size: 20px;
+     padding: 30px;
+     background-color: #efebf7;
+     border-top-left-radius: 207px;
+     border-top-right-radius: 700px;
+     border-bottom-right-radius: 100px;
+     border-bottom-left-radius: 500px;
+     margin-top: 10px;
+}
+
+.form-adm {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 90%;
+     margin-top: 15px;
+
+}
+
+.area-admin {
+     position: relative;
+     width: 90%;
+     height: 100px;
+     border-radius: 9px;
+     font-size: 17px;
+     padding-left: 10px;
+
+}
+
+
+
+.area-admin:valid {
+     color: #001e1b;
+
+}
+
+.area-admin::placeholder {
+     color: #ff225b;
+     opacity: 0.7;
+     font-weight: 900
+}
+
+.area-admin:focus {
+     outline-color: #009688;
+}
+
+.bt-adm {
+     font-family: IBM Plex Mono;
+     font-weight: 600;
+     padding: 10px 20px;
+     margin-top: 10px;
+     width: 50%;
+     transition: all .7s;
+     border-style: ridge;
+     border-color: aqua;
+     border-radius: 7px;
+}
+
+.bt-adm:hover {
+
+     font-family: IBM Plex Mono;
+     font-weight: 900;
+     font-size: 15px;
+     padding: 10px 20px;
+     margin-top: 10px;
+     width: 50%;
+     transition: all .8s;
+     color: #141605;
+
+     background: linear-gradient(to right,
+               #c5e1a4,
+               #bbf8e3);
+
+     transition: all .8s;
+     border-radius: 7px;
+
+}
+
+@media(max-width: 900px) {
+     .area-admin {
+          position: relative;
+          width: 90%;
+          height: 50px;
+          border-radius: 9px;
+          font-size: 17px;
+          padding-left: 10px;
+
+     }
+
+     .h1-adm {
+          position: relative;
+          font-family: 'IBM Plex Mono', monospace;
+          color: black;
+          font-size: 16px;
+          padding: 20px;
+          background-color: #efebf7;
+          border-top-left-radius: 207px;
+          border-top-right-radius: 700px;
+          border-bottom-right-radius: 100px;
+          border-bottom-left-radius: 500px;
+          margin-top: 10px;
+     }
+}
+
+
+
+.list {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     width: 90%;
+     max-width: 900px;
+     border-radius: 9px;
+     font-size: 17px;
+     padding-left: 10px;
+     background-color: rgba(230, 217, 217, 0.19);
+     padding: 10px 1px 8px;
+     text-align: center;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     word-wrap: break-word;
+     word-break: break-all;
+
+}
+
+
+.list p {
+     margin-bottom: 10px;
+     font-size: 20px;
+     font-family: IBM Plex Mono;
+     font-size: 20px;
+     max-width: 100%;
+
+}
+
+.btn-edt {
+     position: relative;
+     right: 38%;
+     bottom: 0px;
+     margin: 10px 5px 1px;
+     padding: 5px;
+     border-radius: 7px;
+     transition: all 0.8s;
+}
+
+.btn-edt:hover {
+     position: relative;
+     right: 38%;
+     margin: 10px 5px 1px;
+     padding: 5px;
+     border-radius: 7px;
+     background: #009688;
+}
+
+.btn-excluir {
+     position: relative;
+     right: 38%;
+     margin: 10px 5px 1px;
+     padding: 5px;
+     border-radius: 7px;
+     transition: all 0.8s;
+}
+
+.btn-excluir:hover {
+     position: relative;
+     right: 38%;
+     margin: 10px 5px 1px;
+     padding: 5px;
+     border-radius: 7px;
+     background-color: #ff225b;
+}
+
+.btn-edt svg {
+     font-size: 18px;
+     cursor: pointer;
+
+}
+
+
+.btn-excluir svg {
+     font-size: 18px;
+     cursor: pointer;
+
+}
+
+
+
+.btn-sair {
+     position: fixed;
+     bottom: 50px;
+     right: 4%;
+     height: 60px;
+     width: 60px;
+     border-radius: 30px;
+     transition: all 0.8s;
+}
+
+.btn-sair:hover {
+     position: fixed;
+     bottom: 50px;
+     right: 4%;
+     height: 60px;
+     width: 60px;
+     border-radius: 30px;
+     background-color: #e93e1e;
+}
+
+.btn-sair svg {
+
+     font-size: 25px;
+     cursor: pointer;
+
+}

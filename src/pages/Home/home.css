@@ -1,0 +1,156 @@
+.home-Container {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     width: 100%;
+     background:
+          repeating-radial-gradient(circle at center,
+               #444 0 10%,
+               #111 10% 20%);
+
+
+}
+
+
+
+
+
+
+.home-titulo {
+     font-family: IBM Plex Mono;
+     margin-bottom: 20px;
+     color: #ffeb3b;
+}
+
+.text {
+     font-weight: 400;
+     font-family: IBM Plex Mono;
+}
+
+.home-form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 90%;
+     max-width: 600px;
+
+}
+
+.name-in {
+     border: 0;
+     border-radius: 5px;
+     margin-top: 25px;
+     padding: 10px 20px;
+     font-size: 15px;
+     font-family: IBM Plex Mono;
+     font-weight: 600;
+     width: 90%;
+     background-color: rgba(255, 255, 255, 0.13);
+     backdrop-filter: blur(15px);
+     color: brown;
+
+}
+
+.name-in:focus {
+     outline-color: #e91e63;
+}
+
+.name-in::placeholder {
+     color: #e91e63;
+}
+
+.name-in:valid {
+     color: aqua;
+}
+
+
+
+
+.pass-in {
+     border: 0;
+     border-radius: 5px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 10px 20px;
+     font-size: 15px;
+     font-family: IBM Plex Mono;
+     font-weight: 600;
+     width: 90%;
+     color: brown;
+     background-color: rgba(255, 255, 255, 0.13);
+     backdrop-filter: blur(15px);
+
+}
+
+.pass-in:valid {
+     color: aqua;
+}
+
+.pass-in::placeholder {
+     color: #e91e63;
+}
+
+.pass-in:focus {
+     outline-color: #e91e63;
+}
+
+.home-bt {
+     font-family: IBM Plex Mono;
+     font-weight: 600;
+     padding: 10px 20px;
+     margin-top: 10px;
+     width: 50%;
+     transition: all .7s;
+     border-style: ridge;
+     border-color: aqua;
+     border-radius: 7px;
+}
+
+
+.home-bt:hover {
+
+     font-family: IBM Plex Mono;
+     font-weight: 900;
+     font-size: 15px;
+     padding: 10px 20px;
+     margin-top: 10px;
+     width: 50%;
+     transition: all .5s;
+     color: #fefefe;
+
+     background: linear-gradient(to right,
+               #e91e63,
+               #bbf8e3);
+
+     transition: all .8s;
+     border-radius: 7px;
+
+}
+
+.registro {
+     font-size: 25px;
+     font-weight: 400;
+     margin-top: 25px;
+     color: #ff3bb1;
+     font-family: 'Allan', cursive;
+     text-decoration: none;
+     transition: all 0.8s;
+     opacity: .8;
+
+}
+
+.registro:hover {
+     font-size: 28px;
+     font-weight: 400;
+     margin-top: 22px;
+     color: #ff3bb1;
+     font-family: 'Allan', cursive;
+     text-decoration: none;
+     transition: all 0.8s;
+     opacity: 1;
+
+}
